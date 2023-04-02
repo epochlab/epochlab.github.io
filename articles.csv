@@ -1,29 +1,27 @@
 id,title,date,content
-0,orthogrid,2019-07-04,orthogrid.png
-1,EPOCH,2019-11-19,epoch.png
-2,erosion,2019-12-08,erosion.png
-3,featureExtraction,2020-01-02,featureExtraction.png
-4,nnModel,2020-01-23,https://player.vimeo.com/video/571405530
-5,pilotPDG,
-6,meanRGB,
-7,xRes,
-8,aggregation,https://player.vimeo.com/video/634689187
-9,agentTurntable,https://player.vimeo.com/video/644561421
-10,styleGAN,https://player.vimeo.com/video/649034304
-11,latentWalk,https://player.vimeo.com/video/649224539
-12,atariRL,https://player.vimeo.com/video/649229501
-13,timelapseXPU,https://player.vimeo.com/video/649233169
-14,doomRL,https://vimeo.com/649753590 https://player.vimeo.com/video/649753590
-16,codon,
-17,dotMatrix
-18,gates
-19,gaussian
-20,spikeTrain
-21,eigenfaces
-22,cellularAutomata
-23,edgeDetect
-24,earthEngine
-25,poisson
-26,waves
-27,kmeans
-28,PCA
+0,orthogrid,2019-07-04,<img src="../images/orthogrid.jpg">
+1,erosion,2019-12-08,<img src="../images/erosion.png">
+2,featureExtraction,2020-01-02,<img src="../images/featureExtraction.png">
+3,nnModel,2020-01-23,<iframe src="https://player.vimeo.com/video/571405530" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+4,pilotPDG,2020-02-07,<img src="../images/PDG.png">
+5,meanRGB,2020-02-09,<img src="../images/meanRGB.png">
+6,xRes,2020-10-21,<img src="../images/xRes.png">
+7,aggregation,2021-01-11,<iframe src="https://player.vimeo.com/video/634689187" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+8,agentTurntable,2021-06-09,<iframe src="https://player.vimeo.com/video/644561421" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+9,styleGAN,2021-06-28,<iframe src="https://player.vimeo.com/video/649034304" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+10,latentWalk,2021-07-04,<iframe src="https://player.vimeo.com/video/649224539" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+11,atariRL,2021-09-09,<iframe src="https://player.vimeo.com/video/649229501" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+12,timelapseXPU,2021-11-14,<iframe src="https://player.vimeo.com/video/649233169" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+13,doomRL,2021-11-23,<iframe src="https://player.vimeo.com/video/649624495" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+14,agentPromo,2021-12-05,<img src="../images/agent.png">
+15,codon,2021-11-19,<img src="../images/computeGenome.png">
+16,dotMatrix,2022-06-11,<img src="../images/dotMatrix.png">
+17,gates,2022-08-26,<img src="../images/gatesMethod.png">
+18,gaussian,2022-10-23
+19,spikeTrain,2022-10-30
+20,eigenfaces,2022-11-12
+21,edgeDetect,2022-12-08
+22,poisson,2023-01-09
+23,waves,2023-01-09
+24,kmeans,2023-01-09
+25,PCA,2023-01-09,

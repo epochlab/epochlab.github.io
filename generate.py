@@ -28,7 +28,7 @@ def generate_homepage(articles):
         ul {{
             display: flex;
             flex-wrap: nowrap;
-            margin: 5;
+            margin: 15px;
             padding: 0;
             list-style-type: none;
             gap: 1rem;
@@ -51,7 +51,7 @@ def generate_homepage(articles):
 </body>
 </html>
 '''
-    articles_html = ''.join([f'<li><a href="article/{article["id"]}.html">{article["id"]}</a></li>' for article in articles])
+    articles_html = ''.join([f'<li><a href="article/{article["title"]}.html">{article["id"]}</a></li>' for article in articles])
     return template.format(articles=articles_html)
 
 def generate_article(article):
@@ -66,16 +66,21 @@ def generate_article(article):
             background-color: black;
             color: white;
             font-family: 'Inconsolata', sans-serif;
+            padding-left: 5px;
         }}
         a {{
             color: white;
             text-decoration: none;
         }}
+        img {{
+            width: 1000px;
+        }}
     </style>
 </head>
 <body>
     <div>
-    <p><a href="../index.html"><</a> {date}</p>
+        <p><a href="../index.html"><</a> {date}</p>
+        <p>{content}</p>
     </div>
 </body>
 </html>
@@ -91,7 +96,7 @@ def main():
     save_file('index.html', generate_homepage(articles))
 
     for article in articles:
-        save_file(f'article/{article["id"]}.html', generate_article(article))
+        save_file(f'article/{article["title"]}.html', generate_article(article))
 
 if __name__ == '__main__':
     main()
