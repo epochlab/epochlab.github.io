@@ -13,34 +13,7 @@ def generate_homepage(articles):
     <title>epochlab</title>
     <link rel="icon" type="image/png" href="/images/favicon.png?">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap">
-    <style>
-        .image-container {{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }}
-        .image-container img {{
-            max-width: 100%;
-            max-height: 100%;
-        }}
-        ul {{
-            display: flex;
-            flex-wrap: nowrap;
-            margin: 15px;
-            padding: 0;
-            list-style-type: none;
-            gap: 1rem;
-        }}
-        a {{
-            color: black;
-            text-decoration: none;
-        }}
-        body {{
-            font-family: 'Inconsolata', sans-serif;
-        }}
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="image-container">
