@@ -17,11 +17,11 @@ id,title,date,content
 15,codon,2021-11-19,<img src="../images/computeGenome.png">
 16,dotMatrix,2022-06-11,<img src="../images/dotMatrix.png">
 17,gates,2022-08-26,<img src="../images/gatesMethod.png">
-18,gaussian,2022-10-23
+18,gaussian,2022-10-23,<img src="../images/gaussian.png">
 19,spikeTrain,2022-10-30,<img src="../images/spike.png">
 20,eigenfaces,2022-11-12,<img src="../images/eigenfaces.png">
 21,edgeDetect,2022-12-08,<img src="../images/edgeDetect.png">
 22,poisson,2023-01-09,<img src="../images/poisson.png">
-23,waves,2023-01-09,<img src="../images/waves.png">
+23,signal,2023-01-09,<img src="../images/signal.png">
 24,kmeans,2023-01-09,<img src="../images/kmeans.png">
 25,PCA,2023-01-09,<img src="../images/PCA.png">
