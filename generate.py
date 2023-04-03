@@ -10,7 +10,7 @@ def generate_homepage(articles):
 <!DOCTYPE html>
 <html>
 <head>
-    <title>epochlab</title>
+    <title>EPOCH Lab</title>
     <link rel="icon" type="image/png" href="/images/favicon.png?">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap">
     <link rel="stylesheet" href="styles.css">
@@ -32,7 +32,7 @@ def generate_article(article):
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{title}</title>
+    <title>EPOCH Lab | {title}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap">
     <style>
         body {{
