@@ -46,7 +46,7 @@ def generate_article(article):
             text-decoration: none;
         }}
         img {{
-            width: 900px;
+            width: 930px;
         }}
     </style>
 </head>
