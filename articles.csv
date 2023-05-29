@@ -24,7 +24,6 @@ id,title,date,content
 22,poisson,2023-01-09,<img src="../images/poisson.png">
 23,signal,2023-01-09,<img src="../images/signal.png">
 24,kmeans,2023-01-09,<img src="../images/kmeans.png">
-25,spectral,2023-03-11,<img src="../images/spectral.png">
-26,adjacency,2023-03-11,<img src="../images/adjacency.png">
-27,gabor,2023-03-11,<img src="../images/gabor.png">
-28,conv,2023-05-01,<img src="../images/conv.png">
+25,adjacency,2023-03-11,<img src="../images/adjacency.png">
+26,gabor,2023-03-11,<img src="../images/gabor.png">
+27,conv,2023-05-01,<img src="../images/conv.png">
