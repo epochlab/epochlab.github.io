@@ -18,8 +18,7 @@ def generate_homepage(articles):
 <body>
     <div class="image-container">
         <img src="https://github.com/epochlab/archive/blob/main/sample.png?raw=true">
-        <ul>{articles}
-        </ul>
+        <ul>{articles}</ul>
     </div>
 </body>
 </html>

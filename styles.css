@@ -1,27 +1,35 @@
-/* CSS specific for homepage */
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 99vh;
     flex-direction: column;
 }
-.image-container img {
-    max-width: 100%;
-    max-height: 100%;
-}
+
 ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 20px;
     padding: 0;
     list-style-type: none;
     gap: 1rem;
+    justify-content: center;
+    max-width: 1000px; 
 }
+
 a {
     color: rgb(50, 50, 50);
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(200, 200, 200);
+}
+
 body {
     font-family: 'Inconsolata', sans-serif;
 }
