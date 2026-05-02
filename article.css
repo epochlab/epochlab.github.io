@@ -1,8 +1,9 @@
 body {
+    margin: 0;
     background-color: black;
     color: white;
     font-family: 'Inconsolata', sans-serif;
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 a {
@@ -16,8 +17,7 @@ a:hover {
 
 img {
     display: block;
-    max-width: 960px;
-    width: 100%;
+    width: min(960px, 100%);
 }
 
 iframe {
