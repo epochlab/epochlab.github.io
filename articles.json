@@ -1,0 +1,268 @@
+[
+  {
+    "id": 0,
+    "title": "orthogrid",
+    "date": "2019-07-04",
+    "media_type": "image",
+    "media_url": "images/orthogrid.jpg"
+  },
+  {
+    "id": 1,
+    "title": "erosion",
+    "date": "2019-12-08",
+    "media_type": "image",
+    "media_url": "images/erosion.png"
+  },
+  {
+    "id": 2,
+    "title": "featureExtraction",
+    "date": "2020-01-02",
+    "media_type": "image",
+    "media_url": "images/featureExtraction.png"
+  },
+  {
+    "id": 3,
+    "title": "nnModel",
+    "date": "2020-01-23",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/571405530"
+  },
+  {
+    "id": 4,
+    "title": "pilotPDG",
+    "date": "2020-02-07",
+    "media_type": "image",
+    "media_url": "images/PDG.png"
+  },
+  {
+    "id": 5,
+    "title": "meanRGB",
+    "date": "2020-02-09",
+    "media_type": "image",
+    "media_url": "images/meanRGB.png"
+  },
+  {
+    "id": 6,
+    "title": "xRes",
+    "date": "2020-10-21",
+    "media_type": "image",
+    "media_url": "images/xRes.png"
+  },
+  {
+    "id": 7,
+    "title": "aggregation",
+    "date": "2021-01-11",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/634689187"
+  },
+  {
+    "id": 8,
+    "title": "agentTurntable",
+    "date": "2021-06-09",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/644561421"
+  },
+  {
+    "id": 9,
+    "title": "styleGAN",
+    "date": "2021-06-28",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/649034304"
+  },
+  {
+    "id": 10,
+    "title": "latentWalk",
+    "date": "2021-07-04",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/649224539"
+  },
+  {
+    "id": 11,
+    "title": "atariRL",
+    "date": "2021-09-09",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/649229501"
+  },
+  {
+    "id": 12,
+    "title": "timelapseXPU",
+    "date": "2021-11-14",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/649233169"
+  },
+  {
+    "id": 13,
+    "title": "doomRL",
+    "date": "2021-11-23",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/649624495"
+  },
+  {
+    "id": 14,
+    "title": "agentPromo",
+    "date": "2021-12-05",
+    "media_type": "image",
+    "media_url": "images/agent.png"
+  },
+  {
+    "id": 15,
+    "title": "codon",
+    "date": "2021-11-19",
+    "media_type": "image",
+    "media_url": "images/computeGenome.png"
+  },
+  {
+    "id": 16,
+    "title": "dotMatrix",
+    "date": "2022-06-11",
+    "media_type": "image",
+    "media_url": "images/dotMatrix.png"
+  },
+  {
+    "id": 17,
+    "title": "gates",
+    "date": "2022-08-26",
+    "media_type": "image",
+    "media_url": "images/gatesMethod.png"
+  },
+  {
+    "id": 18,
+    "title": "gabor",
+    "date": "2023-06-11",
+    "media_type": "image",
+    "media_url": "images/gabor.png"
+  },
+  {
+    "id": 19,
+    "title": "izhikevich01",
+    "date": "2023-04-09",
+    "media_type": "image",
+    "media_url": "images/izhikevich01.png"
+  },
+  {
+    "id": 20,
+    "title": "izhikevich02",
+    "date": "2023-04-09",
+    "media_type": "image",
+    "media_url": "images/izhikevich02.png"
+  },
+  {
+    "id": 21,
+    "title": "izhikevich03",
+    "date": "2023-04-09",
+    "media_type": "image",
+    "media_url": "images/izhikevich03.png"
+  },
+  {
+    "id": 22,
+    "title": "firstOrder",
+    "date": "2023-04-28",
+    "media_type": "image",
+    "media_url": "images/firstOrder.png"
+  },
+  {
+    "id": 23,
+    "title": "clusters",
+    "date": "2023-05-01",
+    "media_type": "image",
+    "media_url": "images/spectral.png"
+  },
+  {
+    "id": 24,
+    "title": "phase",
+    "date": "2023-06-01",
+    "media_type": "image",
+    "media_url": "images/phase.png"
+  },
+  {
+    "id": 25,
+    "title": "modes",
+    "date": "2023-06-11",
+    "media_type": "image",
+    "media_url": "images/modes.png"
+  },
+  {
+    "id": 26,
+    "title": "afferent01",
+    "date": "2023-06-14",
+    "media_type": "image",
+    "media_url": "images/afferent01.png"
+  },
+  {
+    "id": 27,
+    "title": "afferent02",
+    "date": "2023-06-14",
+    "media_type": "image",
+    "media_url": "images/afferent02.png"
+  },
+  {
+    "id": 28,
+    "title": "adjacency",
+    "date": "2023-06-15",
+    "media_type": "image",
+    "media_url": "images/adjacency.png"
+  },
+  {
+    "id": 29,
+    "title": "weights",
+    "date": "2023-06-15",
+    "media_type": "image",
+    "media_url": "images/weights.png"
+  },
+  {
+    "id": 30,
+    "title": "activityPattern01",
+    "date": "2023-06-15",
+    "media_type": "image",
+    "media_url": "images/activityPattern01.png"
+  },
+  {
+    "id": 31,
+    "title": "activityPattern02",
+    "date": "2023-06-20",
+    "media_type": "image",
+    "media_url": "images/activityPattern02.gif"
+  },
+  {
+    "id": 32,
+    "title": "sigmaA",
+    "date": "2023-06-20",
+    "media_type": "image",
+    "media_url": "images/sigmaA.png"
+  },
+  {
+    "id": 33,
+    "title": "sigmaX",
+    "date": "2023-06-20",
+    "media_type": "image",
+    "media_url": "images/sigmaX.png"
+  },
+  {
+    "id": 34,
+    "title": "patternOverlap01",
+    "date": "2023-06-20",
+    "media_type": "image",
+    "media_url": "images/patternOverlap01.png"
+  },
+  {
+    "id": 35,
+    "title": "patternOverlap02",
+    "date": "2023-06-20",
+    "media_type": "image",
+    "media_url": "images/patternOverlap02.gif"
+  },
+  {
+    "id": 36,
+    "title": "witness",
+    "date": "2024-06-01",
+    "media_type": "image",
+    "media_url": "images/witness.png"
+  },
+  {
+    "id": 37,
+    "title": "playhouse",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/playhouse.png"
+  }
+]

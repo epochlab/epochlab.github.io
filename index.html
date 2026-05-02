@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPOCH Lab</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image-container">
+        <div class="hero">
+            <img src="images/sample.png" alt="EPOCH Lab">
+            <ul id="articles"></ul>
+        </div>
+    </div>
+    <script>
+        fetch('articles.json')
+            .then(r => r.json())
+            .then(articles => {
+                document.getElementById('articles').innerHTML = articles
+                    .map(a => `<li><a href="article.html?id=${a.title}">${a.id}</a></li>`)
+                    .join('');
+            })
+            .catch(() => {});
+    </script>
+</body>
+</html>

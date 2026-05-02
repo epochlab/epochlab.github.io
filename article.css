@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inconsolata', sans-serif;
+    padding: 0 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 960px;
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    width: min(960px, 100%);
+    aspect-ratio: 16 / 9;
+    border: 0;
+}

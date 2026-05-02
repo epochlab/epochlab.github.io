@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inconsolata', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+.hero {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+.hero ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(200, 200, 200);
+}
+
+a:hover {
+    text-decoration: underline;
+}

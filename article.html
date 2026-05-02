@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPOCH Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap">
+    <link rel="stylesheet" href="article.css">
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        const id = new URLSearchParams(window.location.search).get('id');
+        const content = document.getElementById('content');
+
+        fetch('articles.json')
+            .then(r => r.json())
+            .then(articles => {
+                const article = articles.find(a => a.title === id);
+                if (!article) {
+                    content.innerHTML = '<p><a href="index.html">&lt;</a> not found</p>';
+                    return;
+                }
+                document.title = `EPOCH Lab | ${article.title}`;
+                const media = article.media_type === 'video'
+                    ? `<iframe src="${article.media_url}" title="${article.title}" allowfullscreen></iframe>`
+                    : `<img src="${article.media_url}" alt="${article.title}">`;
+                content.innerHTML = `<p><a href="index.html">&lt;</a> ${article.date}</p><p>${media}</p>`;
+            })
+            .catch(() => {
+                content.innerHTML = '<p><a href="index.html">&lt;</a> failed to load</p>';
+            });
+    </script>
+</body>
+</html>
