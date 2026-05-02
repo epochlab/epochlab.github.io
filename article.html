@@ -27,7 +27,7 @@
                 const media = article.media_type === 'video'
                     ? `<iframe src="${article.media_url}" title="${article.title}" allowfullscreen></iframe>`
                     : `<img src="${article.media_url}" alt="${article.title}">`;
-                content.innerHTML = `<p><a href="index.html">&lt;</a> ${article.date}</p><p>${media}</p>`;
+                content.innerHTML = `<p><a href="index.html">&lt;</a> ${article.date} :: ${article.title}</p><p>${media}</p>`;
             })
             .catch(() => {
                 content.innerHTML = '<p><a href="index.html">&lt;</a> failed to load</p>';
