@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 99vh;
+    min-height: 99vh;
 }
 
 .hero {
@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    padding: 0 10px 10px;
+    padding: 10px 10px 10px;
     font-size: 20px;
     line-height: 1;
 }
