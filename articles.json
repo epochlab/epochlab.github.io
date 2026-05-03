@@ -172,7 +172,7 @@
     "title": "phase",
     "date": "2023-06-01",
     "media_type": "image",
-    "media_url": "images/phase.png"
+    "media_url": "images/phase_orbit.png"
   },
   {
     "id": 25,
@@ -264,5 +264,68 @@
     "date": "2024-08-19",
     "media_type": "image",
     "media_url": "images/playhouse.png"
+  },
+  {
+    "id": 38,
+    "title": "phase_all2all",
+    "date": "2024-11-11",
+    "media_type": "image",
+    "media_url": "images/phase_all2all.png"
+  },
+  {
+    "id": 39,
+    "title": "LCA_decisionWindow",
+    "date": "2025-02-07",
+    "media_type": "image",
+    "media_url": "images/bif_lowDimensional.png"
+  },
+  {
+    "id": 40,
+    "title": "fixedPoint_integration_N2",
+    "date": "2025-05-09",
+    "media_type": "image",
+    "media_url": "images/fp_integration_N2.png"
+  },
+  {
+    "id": 41,
+    "title": "bif_recursive",
+    "date": "2026-01-17",
+    "media_type": "image",
+    "media_url": "images/bif_recursive.png"
+  },
+  {
+    "id": 42,
+    "title": "bif_3d_multiview",
+    "date": "2026-01-17",
+    "media_type": "image",
+    "media_url": "images/bif_3d_multiview.png"
+  },
+  {
+    "id": 43,
+    "title": "bif_2d_projections",
+    "date": "2026-01-17",
+    "media_type": "image",
+    "media_url": "images/bif_2d_projections.png"
+  },
+  {
+    "id": 44,
+    "title": "fixedPoint_stability",
+    "date": "2026-02-07",
+    "media_type": "image",
+    "media_url": "images/fp_stability.png"
+  },
+  {
+    "id": 45,
+    "title": "fixedPoint_decisionThreshold",
+    "date": "2026-04-02",
+    "media_type": "image",
+    "media_url": "images/fp_decisionThreshold.png"
+  },
+  {
+    "id": 46,
+    "title": "neuralMotif",
+    "date": "2026-05-03",
+    "media_type": "image",
+    "media_url": "images/motif.png"
   }
 ]
