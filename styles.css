@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0 15px;
+    padding: 0 10px;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .hero {
     width: 100%;
-    max-width: 1024px;
+    max-width: 960px;
     position: relative;
 }
 
