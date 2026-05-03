@@ -13,7 +13,6 @@ body {
 }
 
 .hero {
-    position: relative;
     width: 100%;
     max-width: 1024px;
 }
@@ -28,8 +27,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    width: 100%;
-    box-sizing: border-box;
     padding: 0 0.75rem;
     margin: 20px 0;
     list-style-type: none;
