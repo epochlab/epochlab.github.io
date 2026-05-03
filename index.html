@@ -15,7 +15,6 @@
         <div class="hero">
             <img src="images/sample.png" alt="EPOCH Lab" fetchpriority="high">
             <ul id="articles"></ul>
-            <div id="thumb"><img src="" alt=""></div>
         </div>
     </div>
     <script>
@@ -23,32 +22,10 @@
             .then(r => r.json())
             .then(articles => {
                 const ul = document.getElementById('articles');
-                const thumb = document.getElementById('thumb');
-                const thumbImg = thumb.querySelector('img');
-                const hero = document.querySelector('.hero');
 
                 ul.innerHTML = articles
-                    .map(a => {
-                        const t = a.media_type === 'image' ? ` data-thumb="${a.media_url}"` : '';
-                        return `<li><a href="article.html?id=${a.title}"${t}>${a.id}</a></li>`;
-                    })
+                    .map(a => `<li><a href="article.html?id=${a.title}" title="${a.title}">${a.id}</a></li>`)
                     .join('');
-
-                ul.querySelectorAll('a[data-thumb]').forEach(link => {
-                    link.addEventListener('mouseenter', () => {
-                        const lr = link.getBoundingClientRect();
-                        const hr = hero.getBoundingClientRect();
-                        const left = lr.left + lr.width / 2 - 60 - hr.left;
-                        const top = lr.top - hr.top - 98;
-                        thumbImg.src = link.dataset.thumb;
-                        thumb.style.left = left + 'px';
-                        thumb.style.top = top + 'px';
-                        thumb.style.display = 'block';
-                    });
-                    link.addEventListener('mouseleave', () => {
-                        thumb.style.display = 'none';
-                    });
-                });
             })
             .catch(() => {});
     </script>
