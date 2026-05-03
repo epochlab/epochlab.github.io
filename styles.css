@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0 15px;
-    font-family: 'Inconsolata', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 .image-container {
@@ -15,6 +15,30 @@ body {
 .hero {
     width: 100%;
     max-width: 1024px;
+    position: relative;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 0 10px 10px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.social-links a:nth-child(1),
+.social-links a:nth-child(1):visited { color: #ff006e; }
+
+.social-links a:nth-child(2),
+.social-links a:nth-child(2):visited { color: #2dc653; }
+
+.social-links a:nth-child(3),
+.social-links a:nth-child(3):visited { color: #3a86ff; }
+
+.social-links a:hover {
+    text-decoration: none;
+    opacity: 0.6;
 }
 
 .hero > img {
