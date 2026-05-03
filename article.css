@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: black;
     color: white;
-    font-family: 'Inconsolata', sans-serif;
+    font-family: 'Inconsolata', monospace;
     padding: 0 15px;
 }
 
