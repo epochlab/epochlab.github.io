@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap">
     <link rel="stylesheet" href="article.css">
 </head>
 <body>
@@ -19,19 +19,23 @@
         fetch('articles.json')
             .then(r => r.json())
             .then(articles => {
-                const article = articles.find(a => a.title === id);
-                if (!article) {
-                    content.innerHTML = '<p><a href="index.html">&lt;</a> not found</p>';
+                const i = articles.findIndex(a => a.title === id);
+                if (i < 0) {
+                    content.innerHTML = '<p><a href="index.html" aria-label="Home">&#8962;</a> not found</p>';
                     return;
                 }
+                const article = articles[i];
                 document.title = `EPOCH Lab | ${article.title}`;
                 const media = article.media_type === 'video'
                     ? `<iframe src="${article.media_url}" title="${article.title}" allowfullscreen></iframe>`
                     : `<img src="${article.media_url}" alt="${article.title}">`;
-                content.innerHTML = `<p><a href="index.html">&lt;</a> ${article.date} :: ${article.title}</p><p>${media}</p>`;
+                const prev = articles[(i - 1 + articles.length) % articles.length];
+                const next = articles[(i + 1) % articles.length];
+                const nav = `<span><a href="article.html?id=${prev.title}" aria-label="Previous">&lt;</a> <a href="article.html?id=${next.title}" aria-label="Next">&gt;</a></span>`;
+                content.innerHTML = `<p class="header"><span><a href="index.html" aria-label="Home">&#8962;</a> : ${article.date} :: ${article.title}</span>${nav}</p><p>${media}</p><p class="caption"><b>${article.id}. ${article.caption.title}.</b> ${article.caption.text}</p>`;
             })
             .catch(() => {
-                content.innerHTML = '<p><a href="index.html">&lt;</a> failed to load</p>';
+                content.innerHTML = '<p><a href="index.html" aria-label="Home">&#8962;</a> failed to load</p>';
             });
     </script>
 </body>
