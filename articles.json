@@ -4,265 +4,373 @@
     "title": "orthogrid",
     "date": "2019-07-04",
     "media_type": "image",
-    "media_url": "images/orthogrid.jpg"
+    "media_url": "images/orthogrid.jpg",
+    "caption": {
+      "title": "Orthographic reference grid",
+      "text": "Square lattice in orthographic projection. Major axes (blue) intersect at the origin; minor (teal) and sub-minor (teal-fine) gridlines subdivide each quadrant at uniform spacing, giving a distortion-free reference for scale and alignment."
+    }
   },
   {
     "id": 1,
     "title": "erosion",
     "date": "2019-12-08",
     "media_type": "image",
-    "media_url": "images/erosion.png"
+    "media_url": "images/erosion.png",
+    "caption": {
+      "title": "Learned prediction of hydraulic erosion from terrain height maps",
+      "text": "A network is trained to map terrain elevation to the erosion produced by a hydraulic simulation. Each row is an independent terrain. Left, input height map; centre, simulated erosion map; right, network prediction. RGB dendritic drainage channels and deposition fans are recovered from elevation alone."
+    }
   },
   {
     "id": 2,
-    "title": "featureExtraction",
+    "title": "feature_extraction",
     "date": "2020-01-02",
     "media_type": "image",
-    "media_url": "images/featureExtraction.png"
+    "media_url": "images/featureExtraction.png",
+    "caption": {
+      "title": "Tiled convolutional feature maps",
+      "text": "Activations of a convolutional layer tiled into a single mosaic. Each tile is one feature map; colour encodes activation magnitude from low (blue) to high (yellow)."
+    }
   },
   {
     "id": 3,
-    "title": "nnModel",
+    "title": "nn_turntable",
     "date": "2020-01-23",
     "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/571405530"
+    "media_url": "https://player.vimeo.com/video/571405530",
+    "caption": {
+      "title": "Turntable render of a CNN architecture",
+      "text": "Three-dimensional render of a convolutional neural network architecture under continuous rotation. Layers and their connections are shown in depth, exposing the network topology from every viewpoint."
+    }
   },
   {
     "id": 4,
-    "title": "pilotPDG",
-    "date": "2020-02-07",
+    "title": "mean_rgb",
+    "date": "2020-02-09",
     "media_type": "image",
-    "media_url": "images/PDG.png"
+    "media_url": "images/meanRGB.png",
+    "caption": {
+      "title": "Pixel-wise mean of an aligned face dataset",
+      "text": "Per-pixel mean RGB across a dataset of aligned faces. Features fixed by alignment (eyes, nose, mouth) remain sharp, whereas hair, head shape, pose and background vary between images and average to blur, exposing the alignment bias of the dataset."
+    }
   },
   {
     "id": 5,
-    "title": "meanRGB",
-    "date": "2020-02-09",
+    "title": "edsr",
+    "date": "2020-10-21",
     "media_type": "image",
-    "media_url": "images/meanRGB.png"
+    "media_url": "images/xRes.png",
+    "caption": {
+      "title": "Face super-resolution with an enhanced deep residual network (EDSR)",
+      "text": "An enhanced deep residual network (EDSR) recovers high-frequency detail from downsampled inputs. Each row: left, 64<sup>2</sup> low-resolution input; centre, ground truth; right, super-resolved prediction. Fine structure in hair, skin and spectacle frames is restored, with residual smoothing in highly textured regions."
+    }
   },
   {
     "id": 6,
-    "title": "xRes",
-    "date": "2020-10-21",
-    "media_type": "image",
-    "media_url": "images/xRes.png"
-  },
-  {
-    "id": 7,
     "title": "aggregation",
     "date": "2021-01-11",
     "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/634689187"
+    "media_url": "https://player.vimeo.com/video/634689187",
+    "caption": {
+      "title": "Simulated aggregation",
+      "text": "Simulation of collective aggregation in Houdini. Initially dispersed elements are drawn together by local interactions and coalesce into clusters over time."
+    }
+  },
+  {
+    "id": 7,
+    "title": "agent_turntable",
+    "date": "2021-06-09",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/644561421",
+    "caption": {
+      "title": "Turntable render of a humanoid agent",
+      "text": "Humanoid agent under continuous rotation. The body surface is sampled under different shading and feedback scenarios."
+    }
   },
   {
     "id": 8,
-    "title": "agentTurntable",
-    "date": "2021-06-09",
-    "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/644561421"
-  },
-  {
-    "id": 9,
     "title": "styleGAN",
     "date": "2021-06-28",
     "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/649034304"
+    "media_url": "https://player.vimeo.com/video/649034304",
+    "caption": {
+      "title": "Images synthesised by a style-based generative adversarial network (StyleGAN)",
+      "text": "Each frame is generated from an independent latent vector. Per-layer style modulation controls coarse attributes, such as pose and shape, separately from fine detail, such as texture and colour."
+    }
+  },
+  {
+    "id": 9,
+    "title": "latent_walk",
+    "date": "2021-07-04",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/649224539",
+    "caption": {
+      "title": "Interpolation through the StyleGAN latent space",
+      "text": "Continuous path between sampled latent vectors of a StyleGAN generator; each frame is a generated image. Smooth change along the path indicates a well-structured latent space in which nearby points map to perceptually similar images."
+    }
   },
   {
     "id": 10,
-    "title": "latentWalk",
-    "date": "2021-07-04",
+    "title": "atari_rl",
+    "date": "2021-09-09",
     "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/649224539"
+    "media_url": "https://player.vimeo.com/video/649229501",
+    "caption": {
+      "title": "Deep reinforcement learning agent playing Atari",
+      "text": "The policy maps raw screen pixels to joystick actions and is optimised to maximise cumulative game score, with no prior knowledge of the game rules."
+    }
   },
   {
     "id": 11,
-    "title": "atariRL",
-    "date": "2021-09-09",
+    "title": "timelapse_hdr",
+    "date": "2021-11-14",
     "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/649229501"
+    "media_url": "https://player.vimeo.com/video/649233169",
+    "caption": {
+      "title": "High-dynamic-range timelapse",
+      "text": "Frames captured at a fixed interval (Paul Debevec HDR set), each merged from multiple exposures."
+    }
   },
   {
     "id": 12,
-    "title": "timelapseXPU",
-    "date": "2021-11-14",
+    "title": "doom_rl",
+    "date": "2021-11-23",
     "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/649233169"
+    "media_url": "https://player.vimeo.com/video/649624495",
+    "caption": {
+      "title": "Deep reinforcement learning agent playing Doom",
+      "text": "The policy acts from first-person raw pixels alone, learning from reward to navigate the environment."
+    }
   },
   {
     "id": 13,
-    "title": "doomRL",
-    "date": "2021-11-23",
-    "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/649624495"
+    "title": "agent_sample",
+    "date": "2021-12-05",
+    "media_type": "image",
+    "media_url": "images/agent.png",
+    "caption": {
+      "title": "Humanoid agent sampled as hexagonal cells",
+      "text": "Still frame of the humanoid agent. The body surface is rendered as hexagonal samples against a Voronoi tessellation whose cell size increases through foveal sampling."
+    }
   },
   {
     "id": 14,
-    "title": "agentPromo",
-    "date": "2021-12-05",
-    "media_type": "image",
-    "media_url": "images/agent.png"
-  },
-  {
-    "id": 15,
     "title": "codon",
     "date": "2021-11-19",
     "media_type": "image",
-    "media_url": "images/computeGenome.png"
+    "media_url": "images/codon.png",
+    "caption": {
+      "title": "Sequence and protein analysis of the rabies virus genome (NC_001542.1)",
+      "text": "Pipeline from genome to protein. Top, complete nucleotide sequence (11,932 nt; GC content 45.0%). Centre, residue chains translated from the coding sequence. Bottom, physicochemical profile of chain 0 (460 aa; 51.7 kDa; pI 6.17; instability index 35.7, classed stable; GRAVY &minus;0.254, hydrophilic)."
+    }
+  },
+  {
+    "id": 15,
+    "title": "dot_matrix",
+    "date": "2022-06-11",
+    "media_type": "image",
+    "media_url": "images/dotMatrix.png",
+    "caption": {
+      "title": "Dot-matrix representation of a nucleotide sequence",
+      "text": "Each dot is one base, read row by row across a square lattice and coloured by identity (A, C, G, T). The sequence is shown in full at a glance, with local compositional bias visible as clusters of a single colour."
+    }
   },
   {
     "id": 16,
-    "title": "dotMatrix",
-    "date": "2022-06-11",
-    "media_type": "image",
-    "media_url": "images/dotMatrix.png"
-  },
-  {
-    "id": 17,
     "title": "gates",
     "date": "2022-08-26",
     "media_type": "image",
-    "media_url": "images/gatesMethod.png"
+    "media_url": "images/gatesMethod.png",
+    "caption": {
+      "title": "Two-dimensional DNA walk of a nucleotide sequence by the Gates method",
+      "text": "Each base moves the walker one unit north, south, east or west according to its identity, mapping the sequence to a path on a square lattice. Compositional bias appears as directional drift; dense, overlapping regions mark locally balanced composition in which the walker repeatedly revisits the same sites."
+    }
   },
   {
-    "id": 18,
-    "title": "gabor",
-    "date": "2023-06-11",
-    "media_type": "image",
-    "media_url": "images/gabor.png"
-  },
-  {
-    "id": 19,
-    "title": "izhikevich01",
-    "date": "2023-04-09",
-    "media_type": "image",
-    "media_url": "images/izhikevich01.png"
-  },
-  {
-    "id": 20,
-    "title": "izhikevich02",
-    "date": "2023-04-09",
-    "media_type": "image",
-    "media_url": "images/izhikevich02.png"
-  },
-  {
-    "id": 21,
-    "title": "izhikevich03",
-    "date": "2023-04-09",
-    "media_type": "image",
-    "media_url": "images/izhikevich03.png"
-  },
-  {
-    "id": 22,
-    "title": "firstOrder",
-    "date": "2023-04-28",
-    "media_type": "image",
-    "media_url": "images/firstOrder.png"
-  },
-  {
-    "id": 23,
-    "title": "clusters",
-    "date": "2023-05-01",
-    "media_type": "image",
-    "media_url": "images/spectral.png"
-  },
-  {
-    "id": 24,
-    "title": "phase",
-    "date": "2023-06-01",
-    "media_type": "image",
-    "media_url": "images/phase_orbit.png"
-  },
-  {
-    "id": 25,
+    "id": 17,
     "title": "modes",
     "date": "2023-06-11",
     "media_type": "image",
-    "media_url": "images/modes.png"
+    "media_url": "images/modes.png",
+    "caption": {
+      "title": "Orientation maps from superposed plane waves",
+      "text": "Hue encodes phase. Left, a single plane wave produces parallel bands. Centre, two superposed waves produce a periodic lattice. Right, many waves of fixed wavelength and random orientation produce a quasi-periodic map with pinwheel singularities, resembling orientation preference maps in primary visual cortex."
+    }
   },
   {
-    "id": 26,
+    "id": 18,
     "title": "afferent01",
     "date": "2023-06-14",
     "media_type": "image",
-    "media_url": "images/afferent01.png"
+    "media_url": "images/afferent01.png",
+    "caption": {
+      "title": "Spatial frequency content of an afferent stimulus",
+      "text": "Fourier analysis of a structured visual stimulus. Left, source image. Centre, log power spectrum; radial streaks arise from the dominant straight edges. Right, radially averaged power against distance from the origin; the red line marks the selected spatial frequency at the spectral peak."
+    }
   },
   {
-    "id": 27,
+    "id": 19,
     "title": "afferent02",
     "date": "2023-06-14",
     "media_type": "image",
-    "media_url": "images/afferent02.png"
+    "media_url": "images/afferent02.png",
+    "caption": {
+      "title": "Orientation-selective filtering of an afferent stimulus",
+      "text": "Top left, orientation preference map; colour encodes preferred angle. Top right, input stimulus. Bottom left, Gabor filter tuned to the selected spatial frequency. Bottom right, feature-space response combining stimulus, filter and preference map."
+    }
   },
   {
-    "id": 28,
-    "title": "adjacency",
-    "date": "2023-06-15",
-    "media_type": "image",
-    "media_url": "images/adjacency.png"
-  },
-  {
-    "id": 29,
-    "title": "weights",
-    "date": "2023-06-15",
-    "media_type": "image",
-    "media_url": "images/weights.png"
-  },
-  {
-    "id": 30,
-    "title": "activityPattern01",
-    "date": "2023-06-15",
-    "media_type": "image",
-    "media_url": "images/activityPattern01.png"
-  },
-  {
-    "id": 31,
-    "title": "activityPattern02",
-    "date": "2023-06-20",
-    "media_type": "image",
-    "media_url": "images/activityPattern02.gif"
-  },
-  {
-    "id": 32,
-    "title": "sigmaA",
-    "date": "2023-06-20",
-    "media_type": "image",
-    "media_url": "images/sigmaA.png"
-  },
-  {
-    "id": 33,
-    "title": "sigmaX",
-    "date": "2023-06-20",
-    "media_type": "image",
-    "media_url": "images/sigmaX.png"
-  },
-  {
-    "id": 34,
-    "title": "patternOverlap01",
-    "date": "2023-06-20",
-    "media_type": "image",
-    "media_url": "images/patternOverlap01.png"
-  },
-  {
-    "id": 35,
-    "title": "patternOverlap02",
-    "date": "2023-06-20",
-    "media_type": "image",
-    "media_url": "images/patternOverlap02.gif"
-  },
-  {
-    "id": 36,
-    "title": "witness",
-    "date": "2024-06-01",
-    "media_type": "image",
-    "media_url": "images/witness.png"
-  },
-  {
-    "id": 37,
+    "id": 20,
     "title": "playhouse",
     "date": "2024-08-19",
     "media_type": "image",
-    "media_url": "images/playhouse.png"
+    "media_url": "images/playhouse.png",
+    "caption": {
+      "title": "Human skull synthesised by a latent diffusion render engine",
+      "text": "Scene layout and auxiliary render passes (albedo, depth, normals, curvature) are generated in Houdini and condition Stable Diffusion XL through ControlNets. Noise is iteratively refined in latent space under classifier-free guidance, upscaled by super-resolution and composited in Nuke with lens distortion, grain and chromatic aberration to impart photographic optical character."
+    }
+  },
+  {
+    "id": 21,
+    "title": "N2_bifurcation",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/N2_bifurcation.png",
+    "caption": {
+      "title": "Bounded decision window for N = 2 (X<sub>i</sub> = 5.0)",
+      "text": "Equilibrium activity z<sub>i</sub> as a function of the value coefficient &alpha;, obtained by numerical continuation from start (green square) to end (blue triangle). The symmetric fixed point (black) loses stability (dashed) at a pitchfork branch point (&alpha;<sub>lo</sub> &asymp; 0.232), where two stable asymmetric branches emerge (winner, blue; loser, red), and regains stability at a second branch point (&alpha;<sub>hi</sub> &asymp; 0.712). Within this window the network must break symmetry and select one option; outside it both units settle at equal activity."
+    }
+  },
+  {
+    "id": 22,
+    "title": "N2_stability",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/N2_stability.png",
+    "caption": {
+      "title": "Gain and stability of the symmetric fixed point for N = 2 (X<sub>i</sub> = 5.0)",
+      "text": "Top, fixed-point activation S(z*) and effective gain S&prime;(z*) at the symmetric fixed point; gain peaks mid-window, where the sigmoid is steepest. Bottom, symmetry-breaking eigenvalue &lambda;<sub>b</sub> of the Jacobian. The shaded decision window is the interval where &lambda;<sub>b</sub> &gt; 0, bounded by &alpha;<sub>lo</sub> &asymp; 0.232 and &alpha;<sub>hi</sub> &asymp; 0.712 (red dashed). At low &alpha; cross-inhibition is silent and at high &alpha; it saturates; in both limits the symmetric state is stable."
+    }
+  },
+  {
+    "id": 23,
+    "title": "N3_bifurcation",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/N3_bifurcation.png",
+    "caption": {
+      "title": "Nested bifurcations for N = 3",
+      "text": "Equilibrium activity z<sub>i</sub> of each unit as a function of &alpha;; solid, stable; dashed, unstable. The principal branch (thick line) loses stability at &alpha;<sub>lo</sub> &asymp; 0.191 and regains it at &alpha;<sub>hi</sub> &asymp; 0.770 (diamonds). The primary bifurcation separates a winning unit from a suppressed subpopulation, which undergoes a secondary bifurcation (circles), producing a nested hierarchy of binary decisions. Horizontal lines mark the activity at the branch points (z &asymp; 1.233, 2.170)."
+    }
+  },
+  {
+    "id": 24,
+    "title": "N3_multiview",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/N3_multiview.png",
+    "caption": {
+      "title": "Bifurcation tree for N = 3 in state space",
+      "text": "Axes are unit activities z<sub>1</sub>, z<sub>2</sub>, z<sub>3</sub>, viewed isometrically (left), in oblique perspective (centre) and along the symmetric diagonal (right). The principal branch (black) runs from start (green square) to end (blue triangle); solid, stable; dashed, unstable. Branches 1&ndash;3 (blue, orange, green) leave the principal branch along the coordinate directions; branch 4 (red) is a co-activation trajectory linking them in a closed loop. The three-fold symmetry of the tree reflects invariance of the network under permutation of units."
+    }
+  },
+  {
+    "id": 25,
+    "title": "N3_projection",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/N3_projection.png",
+    "caption": {
+      "title": "Projections of the N = 3 bifurcation tree onto invariant planes",
+      "text": "Planes z<sub>2</sub> = z<sub>3</sub> (left), z<sub>1</sub> = z<sub>2</sub> (centre) and z<sub>1</sub> = z<sub>3</sub> (right); the principal branch (black) lies on the diagonal of each. The hidden unit equals one plotted unit; blue favours that unit, orange the other. White contours are value lines (X = 1&ndash;6), the states where mean activity is at equilibrium; arrows give the direction of decision flow at each fixed input."
+    }
+  },
+  {
+    "id": 26,
+    "title": "N3_turntable",
+    "date": "2024-08-19",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/1241831358",
+    "caption": {
+      "title": "Rotating view of the N = 3 bifurcation tree",
+      "text": "Principal branch (black) and branches 1&ndash;4 in state space (z<sub>1</sub>, z<sub>2</sub>, z<sub>3</sub>); solid, stable; dashed, unstable. Rotation exposes the three-fold symmetry of branches 1&ndash;3 about the symmetric diagonal and the closed co-activation loop of branch 4."
+    }
+  },
+  {
+    "id": 27,
+    "title": "isometric_phase",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/isometric_grid.png",
+    "caption": {
+      "title": "Phase portraits of the symmetric N = 3 network across the decision window",
+      "text": "(i)&ndash;(viii) Increasing X. Each panel shows fixed points and manifolds in phase space <b>z</b> &isin; &#8477;<sup>3</sup> (left) and its isometric projection (right), with vertices z<sub>1</sub>, z<sub>2</sub>, z<sub>3</sub>. Stable nodes, blue circles; saddles, green squares. Stable manifolds of saddles (blue dashed) lie along eigenvectors with negative eigenvalues; unstable manifolds (red) are integrated forward from small displacements along unstable eigenvectors. The sequence traces the emergence of winner, saddle and co-activation states from a single symmetric state and their collapse back to it."
+    }
+  },
+  {
+    "id": 28,
+    "title": "isometric_turntable",
+    "date": "2024-08-19",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/1241831749",
+    "caption": {
+      "title": "Rotating view of the N = 3 phase portrait",
+      "text": "Fixed points and their stable and unstable manifolds in phase space <b>z</b> &isin; &#8477;<sup>3</sup>. Rotation resolves the three-fold symmetry about the diagonal z<sub>1</sub> = z<sub>2</sub> = z<sub>3</sub>."
+    }
+  },
+  {
+    "id": 29,
+    "title": "neural_motif",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/motif.png",
+    "caption": {
+      "title": "Cross-inhibitory decision motif with pooled inhibition (N = 4)",
+      "text": "Units z<sub>1</sub>&ndash;z<sub>4</sub> are mutually coupled (q), excite a pooled interneuron z<sub>0</sub> (u, solid) and receive inhibition from it (w, dashed). Inputs X<sub>in1</sub> &plusmn; &Delta;X and X<sub>in2</sub> &plusmn; &Delta;X drive z<sub>1</sub> and z<sub>3</sub>. Pooled inhibition scales with total activity, imposing global competition alongside direct pairwise coupling."
+    }
+  },
+  {
+    "id": 30,
+    "title": "neural_field",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/neural_field.png",
+    "caption": {
+      "title": "Ring attractor driven by the value network (N = 120)",
+      "text": "Top left, value input X<sup>V</sup>, its projection to the ring X<sup>R</sup>, value activity z<sup>V</sup> and ring activity z<sup>R</sup> over bearing &phi;; of two inputs, only the winning value unit projects to the ring, forming an activity bump at its bearing. Top right, centre-of-mass trajectory of the agent steered by the bump. Centre, pooled inhibition z<sub>0</sub> over time; weight profile w<sub>ij</sub> and initial condition; ring activity over time. Bottom, activation function, normalised projection and connectivity matrix, with short-range excitation and long-range inhibition."
+    }
+  },
+  {
+    "id": 31,
+    "title": "post_heatmap",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/heatmap_post_grid.png",
+    "caption": {
+      "title": "Trajectory heatmaps in the winner-take-all regime (&alpha; = ln 1.27)",
+      "text": "10<sup>4</sup> trials per panel; insets give trials reaching each target. Left to right, top to bottom: two to five equally valued targets (&kappa;<sub>X</sub> = 1); one-high, two-high, all different, centre-high and edge-high (&mu;<sub>0</sub> = 8). A single value unit projects to the ring and the agent travels directly to the highest-valued target, or to one of several equally valued targets with equal probability."
+    }
+  },
+  {
+    "id": 32,
+    "title": "coact_heatmap",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/heatmap_coact_grid.png",
+    "caption": {
+      "title": "Trajectory heatmaps in the co-activation regime (&alpha; = ln 1.63)",
+      "text": "10<sup>4</sup> trials per panel; insets give trials reaching each target. Left to right, top to bottom: two to five equally valued targets (&kappa;<sub>X</sub> = 1); one-high, two-high, all different, centre-high and edge-high (&mu;<sub>0</sub> = 8). Two value units project to the ring; the agent follows their mean bearing and resolves the final target through a spatial bifurcation. With asymmetric value the two highest-valued targets pass the value filter and are resolved regardless of their difference; in the edge-high case the peripheral pair is resolved from the origin and the central target is never reached."
+    }
+  },
+  {
+    "id": 33,
+    "title": "pathtracer",
+    "date": "2024-08-19",
+    "media_type": "image",
+    "media_url": "images/pathtracer.png",
+    "caption": {
+      "title": "Physically based Monte Carlo path tracing of a Cornell box",
+      "text": "Unidirectional path tracer with progressive sampling and Embree-accelerated ray traversal. Stochastic BSDF sampling is combined with next-event estimation from environment and area lights via multiple importance sampling. A mirror sphere (left) reflects the coloured walls and HDR environment; a glass sphere (right) refracts the scene and focuses a caustic onto the floor. Denoised beauty pass at 2048 &times; 1152, linear ACEScg radiance displayed through an sRGB view transform. The HUD reports memory, scene statistics, a per-channel histogram and physical camera parameters (ARRI Alexa XT filmback, 70 mm, f/2.8)."
+    }
   }
 ]
