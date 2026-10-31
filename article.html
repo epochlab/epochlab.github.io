@@ -28,7 +28,7 @@
                 document.title = `EPOCH Lab | ${article.title}`;
                 const media = article.media_type === 'video'
                     ? `<iframe src="${article.media_url}" title="${article.title}" allowfullscreen></iframe>`
-                    : `<img src="${article.media_url}" alt="${article.title}">`;
+                    : `<img src="${article.media_url}" alt="">`;
                 const prev = articles[(i - 1 + articles.length) % articles.length];
                 const next = articles[(i + 1) % articles.length];
                 const nav = `<span><a href="article.html?id=${prev.title}" aria-label="Previous">&lt;</a> <a href="article.html?id=${next.title}" aria-label="Next">&gt;</a></span>`;
