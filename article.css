@@ -15,14 +15,30 @@ a:hover {
     text-decoration: underline;
 }
 
+#content {
+    width: min(960px, 100%);
+}
+
 img {
     display: block;
-    width: min(960px, 100%);
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption {
+    width: 95%;
+    margin-inline: auto;
+    font-size: 12px;
+    line-height: 1.4;
 }
 
 iframe {
     display: block;
-    width: min(960px, 100%);
+    width: 100%;
     aspect-ratio: 16 / 9;
     border: 0;
 }
