@@ -13,15 +13,16 @@
 <body>
     <div id="content"></div>
     <script>
-        const id = new URLSearchParams(window.location.search).get('id');
+        const id = new URLSearchParams(location.search).get('id');
         const content = document.getElementById('content');
+        const home = '<a href="index.html" aria-label="Home">&#8962;</a>';
 
         fetch('articles.json')
             .then(r => r.json())
             .then(articles => {
                 const i = articles.findIndex(a => a.title === id);
                 if (i < 0) {
-                    content.innerHTML = '<p><a href="index.html" aria-label="Home">&#8962;</a> not found</p>';
+                    content.innerHTML = `<p>${home} not found</p>`;
                     return;
                 }
                 const article = articles[i];
@@ -37,10 +38,10 @@
                     if (e.key === 'ArrowLeft') location.href = prev;
                     else if (e.key === 'ArrowRight') location.href = next;
                 });
-                content.innerHTML = `<p class="header"><span><a href="index.html" aria-label="Home">&#8962;</a> : ${article.date} :: ${article.title}</span>${nav}</p><p>${media}</p><p class="caption"><b>${article.id}. ${article.caption.title}.</b> ${article.caption.text}</p>`;
+                content.innerHTML = `<p class="header"><span>${home} : ${article.date} :: ${article.title}</span>${nav}</p><p>${media}</p><p class="caption"><b>${article.id}. ${article.caption.title}.</b> ${article.caption.text}</p>`;
             })
             .catch(() => {
-                content.innerHTML = '<p><a href="index.html" aria-label="Home">&#8962;</a> failed to load</p>';
+                content.innerHTML = `<p>${home} failed to load</p>`;
             });
     </script>
 </body>
