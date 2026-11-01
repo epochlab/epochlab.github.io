@@ -6,9 +6,7 @@
     <title>EPOCH Lab</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap">
+    <link rel="preload" href="fonts/inconsolata.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,13 +15,15 @@
             <div class="social-links">
                 <a href="https://github.com/epochlab" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">&#9679;</a>
                 <a href="https://www.linkedin.com/in/jroberts86/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">&#9679;</a>
-                <a href="mailto:jroberts86@gmail.com" aria-label="Email" title="Email">&#9679;</a>
+                <a id="email" aria-label="Email" title="Email">&#9679;</a>
             </div>
             <img src="images/sample.webp" alt="EPOCH Lab" fetchpriority="high">
             <ul id="articles"></ul>
         </div>
     </div>
     <script>
+        document.getElementById('email').href = 'mailto:jroberts86' + '@gmail.com';
+
         fetch('articles.json')
             .then(r => r.json())
             .then(articles => {
