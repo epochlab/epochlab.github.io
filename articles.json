@@ -280,6 +280,7 @@
     "date": "2026-01-08",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/1241831358",
+    "aspect": "1218 / 1274",
     "caption": {
       "title": "Rotating view of the N = 3 bifurcation tree",
       "text": "Principal branch (black) and branches 1&ndash;4 in state space (z<sub>1</sub>, z<sub>2</sub>, z<sub>3</sub>); solid, stable; dashed, unstable. Rotation exposes the three-fold symmetry of branches 1&ndash;3 about the symmetric diagonal and the closed co-activation loop of branch 4."
