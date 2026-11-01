@@ -233,7 +233,7 @@
   {
     "id": 21,
     "title": "N2_bifurcation",
-    "date": "2024-08-19",
+    "date": "2025-01-12",
     "media_type": "image",
     "media_url": "images/N2_bifurcation.webp",
     "caption": {
@@ -244,7 +244,7 @@
   {
     "id": 22,
     "title": "N2_stability",
-    "date": "2024-08-19",
+    "date": "2025-05-07",
     "media_type": "image",
     "media_url": "images/N2_stability.webp",
     "caption": {
@@ -255,7 +255,7 @@
   {
     "id": 23,
     "title": "N3_bifurcation",
-    "date": "2024-08-19",
+    "date": "2025-10-02",
     "media_type": "image",
     "media_url": "images/N3_bifurcation.webp",
     "caption": {
@@ -266,7 +266,7 @@
   {
     "id": 24,
     "title": "N3_multiview",
-    "date": "2024-08-19",
+    "date": "2025-10-02",
     "media_type": "image",
     "media_url": "images/N3_multiview.webp",
     "caption": {
@@ -277,7 +277,7 @@
   {
     "id": 25,
     "title": "N3_projection",
-    "date": "2024-08-19",
+    "date": "2025-10-02",
     "media_type": "image",
     "media_url": "images/N3_projection.webp",
     "caption": {
@@ -288,7 +288,7 @@
   {
     "id": 26,
     "title": "N3_turntable",
-    "date": "2024-08-19",
+    "date": "2026-01-08",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/1241831358",
     "caption": {
@@ -299,7 +299,7 @@
   {
     "id": 27,
     "title": "isometric_phase",
-    "date": "2024-08-19",
+    "date": "2026-03-28",
     "media_type": "image",
     "media_url": "images/isometric_grid.webp",
     "caption": {
@@ -310,7 +310,7 @@
   {
     "id": 28,
     "title": "isometric_turntable",
-    "date": "2024-08-19",
+    "date": "2024-03-28",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/1241831749",
     "caption": {
@@ -321,7 +321,7 @@
   {
     "id": 29,
     "title": "neural_motif",
-    "date": "2024-08-19",
+    "date": "2026-07-04",
     "media_type": "image",
     "media_url": "images/motif.webp",
     "caption": {
@@ -332,7 +332,7 @@
   {
     "id": 30,
     "title": "neural_field",
-    "date": "2024-08-19",
+    "date": "2026-08-10",
     "media_type": "image",
     "media_url": "images/neural_field.webp",
     "caption": {
@@ -343,7 +343,7 @@
   {
     "id": 31,
     "title": "heatmap_post",
-    "date": "2024-08-19",
+    "date": "2026-09-22",
     "media_type": "image",
     "media_url": "images/heatmap_post_grid.webp",
     "caption": {
@@ -354,7 +354,7 @@
   {
     "id": 32,
     "title": "heatmap_coact",
-    "date": "2024-08-19",
+    "date": "2026-09-22",
     "media_type": "image",
     "media_url": "images/heatmap_coact_grid.webp",
     "caption": {
@@ -365,7 +365,7 @@
   {
     "id": 33,
     "title": "pathtracer",
-    "date": "2024-08-19",
+    "date": "2026-11-18",
     "media_type": "image",
     "media_url": "images/pathtracer.webp",
     "caption": {
