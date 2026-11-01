@@ -29,7 +29,7 @@
     "media_url": "images/featureExtraction.webp",
     "caption": {
       "title": "Tiled convolutional feature maps",
-      "text": "Activations of a convolutional layer tiled into a single mosaic. Each tile is one feature map; colour encodes activation magnitude from low (blue) to high (yellow)."
+      "text": "Activations of a convolutional layer tiled into a single mosaic. Each tile is one feature map; colour encodes activation magnitude from low (blue) to high (red)."
     }
   },
   {
@@ -57,7 +57,7 @@
   {
     "id": 5,
     "title": "edsr",
-    "date": "2020-10-21",
+    "date": "2020-08-21",
     "media_type": "image",
     "media_url": "images/xRes.webp",
     "caption": {
@@ -370,7 +370,7 @@
     "media_url": "images/pathtracer.webp",
     "caption": {
       "title": "Physically based Monte Carlo path tracing of a Cornell box",
-      "text": "Unidirectional path tracer with progressive sampling and Embree-accelerated ray traversal. Stochastic BSDF sampling is combined with next-event estimation from environment and area lights via multiple importance sampling. A mirror sphere (left) reflects the coloured walls and HDR environment; a glass sphere (right) refracts the scene and focuses a caustic onto the floor. Denoised beauty pass at 2048 &times; 1152, linear ACEScg radiance displayed through an sRGB view transform. The HUD reports memory, scene statistics, a per-channel histogram and physical camera parameters (ARRI Alexa XT filmback, 70 mm, f/2.8)."
+      "text": "Unidirectional path tracer with progressive sampling and Embree-accelerated ray traversal. Stochastic BSDF sampling is combined with next-event estimation from environment and area lights via multiple importance sampling. A mirror sphere (left) reflects the coloured walls and HDR environment; a glass sphere (right) refracts the scene and focuses a caustic onto the floor. Beauty pass at 2048 &times; 1152, linear ACEScg radiance displayed through an sRGB view transform. The HUD reports memory, scene statistics, a per-channel histogram and physical camera parameters (ARRI Alexa XT filmback, 70 mm, f/2.8)."
     }
   }
 ]
