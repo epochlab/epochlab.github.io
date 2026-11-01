@@ -27,12 +27,10 @@
             .then(r => r.json())
             .then(articles => {
                 const ul = document.getElementById('articles');
-
                 ul.innerHTML = articles
                     .map(a => `<li><a href="article.html?id=${a.title}" title="${a.title}">${a.id}</a></li>`)
                     .join('');
-            })
-            .catch(() => {});
+            });
     </script>
 </body>
 </html>
