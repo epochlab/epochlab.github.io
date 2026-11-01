@@ -21,7 +21,7 @@
             .then(articles => {
                 const i = articles.findIndex(a => a.title === id);
                 if (i < 0) {
-                    content.innerHTML = `<p>${home} not found</p>`;
+                    content.innerHTML = `<p class="header"><span>${home} :: 404 not found</span></p>`;
                     return;
                 }
                 const article = articles[i];
@@ -52,7 +52,7 @@
                 for (const a of neighbours) if (a.media_type === 'image') Object.assign(new Image(), { fetchPriority: 'low', src: a.media_url });
             })
             .catch(() => {
-                content.innerHTML = `<p>${home} failed to load</p>`;
+                content.innerHTML = `<p class="header"><span>${home} :: failed to load</span></p>`;
             });
     </script>
 </body>
