@@ -31,15 +31,27 @@
                 const media = article.media_type === 'video'
                     ? `<iframe src="${article.media_url}" title="${article.title}" allowfullscreen></iframe>`
                     : `<img src="${article.media_url}" alt="">`;
-                const prev = `article.html?id=${articles[(i - 1 + articles.length) % articles.length].title}`;
-                const next = `article.html?id=${articles[(i + 1) % articles.length].title}`;
+                const neighbours = [articles[(i - 1 + articles.length) % articles.length], articles[(i + 1) % articles.length]];
+                const [prev, next] = neighbours.map(a => `article.html?id=${a.title}`);
                 const nav = `<span><a href="${prev}" aria-label="Previous">&lt;</a> <a href="${next}" aria-label="Next">&gt;</a></span>`;
                 document.addEventListener('keydown', e => {
                     if (e.altKey || e.metaKey || e.ctrlKey || e.shiftKey) return;
                     if (e.key === 'ArrowLeft') location.href = prev;
                     else if (e.key === 'ArrowRight') location.href = next;
                 });
+                let x0, y0;
+                document.addEventListener('touchstart', e => {
+                    if (e.touches.length === 1) [x0, y0] = [e.touches[0].clientX, e.touches[0].clientY];
+                    else x0 = undefined;
+                }, { passive: true });
+                document.addEventListener('touchend', e => {
+                    if (x0 === undefined || visualViewport.scale > 1) return;
+                    const dx = e.changedTouches[0].clientX - x0;
+                    const dy = e.changedTouches[0].clientY - y0;
+                    if (Math.abs(dx) > 50 && Math.abs(dx) > 2 * Math.abs(dy)) location.href = dx < 0 ? next : prev;
+                });
                 content.innerHTML = `<p class="header"><span>${home} : ${article.date} :: ${article.title}</span>${nav}</p><p>${media}</p><p class="caption"><b>${article.id}. ${article.caption.title}.</b> ${article.caption.text}</p>`;
+                for (const a of neighbours) if (a.media_type === 'image') Object.assign(new Image(), { fetchPriority: 'low', src: a.media_url });
             })
             .catch(() => {
                 content.innerHTML = `<p>${home} failed to load</p>`;
