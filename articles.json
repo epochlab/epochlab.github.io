@@ -116,30 +116,30 @@
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/649229501",
     "caption": {
-      "title": "Deep reinforcement learning agent playing Atari",
-      "text": "The policy maps raw screen pixels to joystick actions and is optimised to maximise cumulative game score, with no prior knowledge of the game rules."
+      "title": "Deep reinforcement learning agent playing Pong",
+      "text": "A double DQN maps raw screen pixels to paddle actions, learning from game score alone with no prior knowledge of the rules."
     }
   },
   {
     "id": 11,
-    "title": "timelapse_hdr",
-    "date": "2021-11-14",
-    "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/649233169",
-    "caption": {
-      "title": "High-dynamic-range timelapse",
-      "text": "Frames captured at a fixed interval (Paul Debevec HDR set), each merged from multiple exposures."
-    }
-  },
-  {
-    "id": 12,
     "title": "doom_rl",
-    "date": "2021-11-23",
+    "date": "2021-11-14",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/649624495",
     "caption": {
       "title": "Deep reinforcement learning agent playing Doom",
-      "text": "The policy acts from first-person raw pixels alone, learning from reward to navigate the environment."
+      "text": "A dueling double DQN acts from first-person raw pixels alone. Evaluation views show the machine view, saliency, attention and Q-value confidence behind each action."
+    }
+  },
+  {
+    "id": 12,
+    "title": "timelapse_hdr",
+    "date": "2021-11-23",
+    "media_type": "video",
+    "media_url": "https://player.vimeo.com/video/649233169",
+    "caption": {
+      "title": "Skull lit by a time-lapse HDR sky",
+      "text": "Image-based lighting from hourly sun and sky probes (Stumpfel et al., USC ICT, 2004), each merged from seven exposures to span the full dynamic range. Inset, the probe as a latitude&ndash;longitude map."
     }
   },
   {
@@ -161,7 +161,7 @@
     "media_url": "images/codon.webp",
     "caption": {
       "title": "Sequence and protein analysis of the rabies virus genome (NC_001542.1)",
-      "text": "Pipeline from genome to protein. Top, complete nucleotide sequence (11,932 nt; GC content 45.0%). Centre, residue chains translated from the coding sequence. Bottom, physicochemical profile of chain 0 (460 aa; 51.7 kDa; pI 6.17; instability index 35.7, classed stable; GRAVY &minus;0.254, hydrophilic)."
+      "text": "Pipeline from genome to protein. Top, complete nucleotide sequence (11,932 nt; GC content 45.1%). Centre, residue chains translated from open reading frames across the genome. Bottom, physicochemical profile of chain 0 (460 aa; 51.7 kDa; pI 6.17; instability index 35.7, classed stable; GRAVY &minus;0.254, hydrophilic)."
     }
   },
   {
@@ -171,8 +171,8 @@
     "media_type": "image",
     "media_url": "images/dotMatrix.webp",
     "caption": {
-      "title": "Dot-matrix representation of a nucleotide sequence",
-      "text": "Each dot is one base, read row by row across a square lattice and coloured by identity (A, C, G, T). The sequence is shown in full at a glance, with local compositional bias visible as clusters of a single colour."
+      "title": "Dot-matrix representation of the rabies virus genome",
+      "text": "Each dot is one of 11,932 bases, read row by row across a 109-column lattice and coloured by identity: A grey, G green, C white, T blue. Local compositional bias appears as clusters of a single colour."
     }
   },
   {
@@ -182,8 +182,8 @@
     "media_type": "image",
     "media_url": "images/gatesMethod.webp",
     "caption": {
-      "title": "Two-dimensional DNA walk of a nucleotide sequence by the Gates method",
-      "text": "Each base moves the walker one unit north, south, east or west according to its identity, mapping the sequence to a path on a square lattice. Compositional bias appears as directional drift; dense, overlapping regions mark locally balanced composition in which the walker repeatedly revisits the same sites."
+      "title": "Two-dimensional DNA walk of the rabies virus genome by the Gates method",
+      "text": "Each base steps one unit on a square lattice: A east, T west, G north, C south. Horizontal drift tracks A&ndash;T excess and vertical drift G&ndash;C excess; dense, overlapping regions mark locally balanced composition."
     }
   },
   {
@@ -199,39 +199,28 @@
   },
   {
     "id": 18,
-    "title": "afferent01",
+    "title": "afferent",
     "date": "2023-06-14",
     "media_type": "image",
-    "media_url": "images/afferent01.webp",
+    "media_url": "images/afferent.webp",
     "caption": {
-      "title": "Spatial frequency content of an afferent stimulus",
-      "text": "Fourier analysis of a structured visual stimulus. Left, source image. Centre, log power spectrum; radial streaks arise from the dominant straight edges. Right, radially averaged power against distance from the origin; the red line marks the selected spatial frequency at the spectral peak."
+      "title": "Orientation-selective encoding of an afferent stimulus",
+      "text": "Top, Fourier analysis of a structured visual stimulus: source image, log power spectrum with radial streaks from the dominant straight edges, and radially averaged power against distance from the origin; the red line marks the selected spatial frequency at the spectral peak. Bottom left, bank of 36 even-symmetric Gabor filters spanning 0&ndash;180°, scaled to the selected frequency. Bottom centre, orientation preference map from superposed plane waves; colour encodes preferred angle. Bottom right, feature space; each pixel is filtered by the Gabor at its preferred orientation, then rectified and normalised."
     }
   },
   {
     "id": 19,
-    "title": "afferent02",
-    "date": "2023-06-14",
-    "media_type": "image",
-    "media_url": "images/afferent02.webp",
-    "caption": {
-      "title": "Orientation-selective filtering of an afferent stimulus",
-      "text": "Top left, orientation preference map; colour encodes preferred angle. Top right, input stimulus. Bottom left, Gabor filter tuned to the selected spatial frequency. Bottom right, feature-space response combining stimulus, filter and preference map."
-    }
-  },
-  {
-    "id": 20,
     "title": "playhouse",
     "date": "2024-08-19",
     "media_type": "image",
     "media_url": "images/playhouse.webp",
     "caption": {
       "title": "Human skull synthesised by a latent diffusion render engine",
-      "text": "Scene layout and auxiliary render passes (albedo, depth, normals, curvature) are generated in Houdini and condition Stable Diffusion XL through ControlNets. Noise is iteratively refined in latent space under classifier-free guidance, upscaled by super-resolution and composited in Nuke with lens distortion, grain and chromatic aberration to impart photographic optical character."
+      "text": "Scene layout and auxiliary render passes (albedo, luminance, depth, normals, curvature) are generated in Houdini and condition Stable Diffusion XL through ControlNets. Noise is iteratively refined in latent space under classifier-free guidance, upscaled by super-resolution and composited in Nuke with lens distortion, grain and chromatic aberration to impart photographic optical character."
     }
   },
   {
-    "id": 21,
+    "id": 20,
     "title": "N2_bifurcation",
     "date": "2025-01-12",
     "media_type": "image",
@@ -242,7 +231,7 @@
     }
   },
   {
-    "id": 22,
+    "id": 21,
     "title": "N2_stability",
     "date": "2025-05-07",
     "media_type": "image",
@@ -253,7 +242,7 @@
     }
   },
   {
-    "id": 23,
+    "id": 22,
     "title": "N3_bifurcation",
     "date": "2025-10-02",
     "media_type": "image",
@@ -264,7 +253,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 23,
     "title": "N3_multiview",
     "date": "2025-10-02",
     "media_type": "image",
@@ -275,7 +264,7 @@
     }
   },
   {
-    "id": 25,
+    "id": 24,
     "title": "N3_projection",
     "date": "2025-10-02",
     "media_type": "image",
@@ -286,7 +275,7 @@
     }
   },
   {
-    "id": 26,
+    "id": 25,
     "title": "N3_turntable",
     "date": "2026-01-08",
     "media_type": "video",
@@ -297,7 +286,7 @@
     }
   },
   {
-    "id": 27,
+    "id": 26,
     "title": "isometric_phase",
     "date": "2026-03-28",
     "media_type": "image",
@@ -308,7 +297,7 @@
     }
   },
   {
-    "id": 28,
+    "id": 27,
     "title": "isometric_turntable",
     "date": "2026-03-28",
     "media_type": "video",
@@ -319,7 +308,7 @@
     }
   },
   {
-    "id": 29,
+    "id": 28,
     "title": "neural_motif",
     "date": "2026-07-04",
     "media_type": "image",
@@ -330,7 +319,7 @@
     }
   },
   {
-    "id": 30,
+    "id": 29,
     "title": "neural_field",
     "date": "2026-08-10",
     "media_type": "image",
@@ -341,7 +330,7 @@
     }
   },
   {
-    "id": 31,
+    "id": 30,
     "title": "heatmap_post",
     "date": "2026-09-22",
     "media_type": "image",
@@ -352,7 +341,7 @@
     }
   },
   {
-    "id": 32,
+    "id": 31,
     "title": "heatmap_coact",
     "date": "2026-09-22",
     "media_type": "image",
@@ -363,7 +352,7 @@
     }
   },
   {
-    "id": 33,
+    "id": 32,
     "title": "pathtracer",
     "date": "2026-11-18",
     "media_type": "image",
