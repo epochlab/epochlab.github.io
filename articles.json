@@ -216,7 +216,7 @@
     "media_url": "images/playhouse.webp",
     "caption": {
       "title": "Human skull synthesised by a latent diffusion render engine",
-      "text": "Scene layout and auxiliary render passes (albedo, luminance, depth, normals, curvature) are generated in Houdini and condition Stable Diffusion XL through ControlNets. Noise is iteratively refined in latent space under classifier-free guidance, upscaled by super-resolution and composited in Nuke with lens distortion, grain and chromatic aberration to impart photographic optical character."
+      "text": "Scene layout and auxiliary render passes (albedo, luminance, depth, normals, curvature) condition a latent diffusion model. Noise is iteratively refined in latent space under classifier-free guidance, upscaled by super-resolution and composited with lens distortion, grain and chromatic aberration to impart photographic optical character."
     }
   },
   {
@@ -349,7 +349,7 @@
     "media_url": "images/heatmap_coact_grid.webp",
     "caption": {
       "title": "Trajectory heatmaps in the co-activation regime (&alpha; = ln 1.63)",
-      "text": "10<sup>4</sup> trials per panel; insets give trials reaching each target. Left to right, top to bottom: two to five equally valued targets (&kappa;<sub>X</sub> = 1); one-high, two-high, all different, centre-high and edge-high (&mu;<sub>0</sub> = 8). Two value units project to the ring; the agent follows their mean bearing and resolves the final target through a spatial bifurcation. With asymmetric value the two highest-valued targets pass the value filter and are resolved regardless of their difference; in the edge-high case the peripheral pair is resolved from the origin and the central target is never reached."
+      "text": "10<sup>4</sup> trials per panel; insets give trials reaching each target. Left to right, top to bottom: two to five equally valued targets (&kappa;<sub>X</sub> = 1); one-high, two-high, all different, centre-high and edge-high (&mu;<sub>0</sub> = 8). Two value units project to the ring; the agent follows their mean bearing and resolves the final target through a spatial bifurcation. With asymmetric value the two highest-valued targets pass the value filter; in the edge-high case the peripheral pair is resolved from the origin and the central target is never reached."
     }
   },
   {
