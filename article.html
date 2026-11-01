@@ -29,9 +29,14 @@
                 const media = article.media_type === 'video'
                     ? `<iframe src="${article.media_url}" title="${article.title}" allowfullscreen></iframe>`
                     : `<img src="${article.media_url}" alt="">`;
-                const prev = articles[(i - 1 + articles.length) % articles.length];
-                const next = articles[(i + 1) % articles.length];
-                const nav = `<span><a href="article.html?id=${prev.title}" aria-label="Previous">&lt;</a> <a href="article.html?id=${next.title}" aria-label="Next">&gt;</a></span>`;
+                const prev = `article.html?id=${articles[(i - 1 + articles.length) % articles.length].title}`;
+                const next = `article.html?id=${articles[(i + 1) % articles.length].title}`;
+                const nav = `<span><a href="${prev}" aria-label="Previous">&lt;</a> <a href="${next}" aria-label="Next">&gt;</a></span>`;
+                document.addEventListener('keydown', e => {
+                    if (e.altKey || e.metaKey || e.ctrlKey || e.shiftKey) return;
+                    if (e.key === 'ArrowLeft') location.href = prev;
+                    else if (e.key === 'ArrowRight') location.href = next;
+                });
                 content.innerHTML = `<p class="header"><span><a href="index.html" aria-label="Home">&#8962;</a> : ${article.date} :: ${article.title}</span>${nav}</p><p>${media}</p><p class="caption"><b>${article.id}. ${article.caption.title}.</b> ${article.caption.text}</p>`;
             })
             .catch(() => {

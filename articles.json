@@ -342,7 +342,7 @@
   },
   {
     "id": 31,
-    "title": "post_heatmap",
+    "title": "heatmap_post",
     "date": "2024-08-19",
     "media_type": "image",
     "media_url": "images/heatmap_post_grid.webp",
@@ -353,7 +353,7 @@
   },
   {
     "id": 32,
-    "title": "coact_heatmap",
+    "title": "heatmap_coact",
     "date": "2024-08-19",
     "media_type": "image",
     "media_url": "images/heatmap_coact_grid.webp",
