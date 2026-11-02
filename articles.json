@@ -39,7 +39,7 @@
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/571405530",
     "caption": {
-      "title": "Turntable render of a CNN architecture",
+      "title": "Turntable render of a CNN architecture (MNIST)",
       "text": "Three-dimensional render of a convolutional neural network architecture under continuous rotation. Layers and their connections are shown in depth, exposing the network topology from every viewpoint."
     }
   },
@@ -89,13 +89,13 @@
   },
   {
     "id": 8,
-    "title": "styleGAN",
+    "title": "styleGAN_training",
     "date": "2021-06-28",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/649034304",
     "caption": {
-      "title": "Images synthesised by a style-based generative adversarial network (StyleGAN)",
-      "text": "Each frame is generated from an independent latent vector. Per-layer style modulation controls coarse attributes, such as pose and shape, separately from fine detail, such as texture and colour."
+      "title": "Training progression of a style-based generative adversarial network (StyleGAN)",
+      "text": "Each frame shows generator output at a successive training checkpoint, rendered from a fixed set of latent vectors so that changes reflect learning rather than resampling. Coarse structure, such as pose and shape, emerges first; fine detail, such as texture, resolves later."
     }
   },
   {
@@ -122,7 +122,7 @@
   },
   {
     "id": 11,
-    "title": "doom_rl",
+    "title": "doom_ddqn",
     "date": "2021-11-14",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/649624495",
