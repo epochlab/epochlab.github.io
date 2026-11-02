@@ -299,13 +299,13 @@
   },
   {
     "id": 27,
-    "title": "isometric_turntable",
+    "title": "isometric_render",
     "date": "2026-03-28",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/1241831749",
     "caption": {
-      "title": "Rotating view of the N = 3 phase portrait",
-      "text": "Fixed points and their stable and unstable manifolds in phase space <b>z</b> &isin; &#8477;<sup>3</sup>. Rotation resolves the three-fold symmetry about the diagonal z<sub>1</sub> = z<sub>2</sub> = z<sub>3</sub>."
+      "title": "Phase portrait of the symmetric N = 3 network under increasing X",
+      "text": "Continuous sweep of X at &kappa;<sub>X</sub> = 1. Phase space <b>z</b> &isin; &#8477;<sup>3</sup> (left) and its isometric projection along the diagonal z<sub>1</sub> = z<sub>2</sub> = z<sub>3</sub> (right). Stable nodes, blue circles; saddles, green squares; unstable points, magenta diamonds. Orange trajectories, integrated from initial conditions across the domain, show the flow into each basin. A single symmetric attractor gives way to three winner-takes-all states, then to co-activation states, before collapsing back to symmetry."
     }
   },
   {
