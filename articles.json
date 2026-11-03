@@ -40,7 +40,7 @@
     "media_url": "https://player.vimeo.com/video/571405530",
     "caption": {
       "title": "Turntable render of a CNN architecture (MNIST)",
-      "text": "Three-dimensional render of a convolutional neural network architecture under continuous rotation. Layers and their connections are shown in depth, exposing the network topology from every viewpoint."
+      "text": "Three-dimensional render of a convolutional neural network architecture. Layers and their connections are shown in depth, exposing the network topology from every viewpoint."
     }
   },
   {
@@ -78,39 +78,28 @@
   },
   {
     "id": 7,
-    "title": "agent_turntable",
-    "date": "2021-06-09",
-    "media_type": "video",
-    "media_url": "https://player.vimeo.com/video/644561421",
-    "caption": {
-      "title": "Turntable render of a humanoid agent",
-      "text": "Humanoid agent under continuous rotation. The body surface is sampled under different shading and feedback scenarios."
-    }
-  },
-  {
-    "id": 8,
     "title": "styleGAN_training",
     "date": "2021-06-28",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/649034304",
     "caption": {
       "title": "Training progression of a style-based generative adversarial network (StyleGAN)",
-      "text": "Each frame shows generator output at a successive training checkpoint, rendered from a fixed set of latent vectors so that changes reflect learning rather than resampling. Coarse structure, such as pose and shape, emerges first; fine detail, such as texture, resolves later."
+      "text": "Each frame shows generator output at a successive training checkpoint. Coarse structure, such as pose and shape, emerges first; fine detail, such as texture, resolves later."
     }
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "latent_walk",
     "date": "2021-07-04",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/649224539",
     "caption": {
       "title": "Interpolation through the StyleGAN latent space",
-      "text": "Continuous path between sampled latent vectors of a StyleGAN generator; each frame is a generated image. Smooth change along the path indicates a well-structured latent space in which nearby points map to perceptually similar images."
+      "text": "Continuous path between sampled latent vectors of a StyleGAN generator. A smooth change along the path indicates a well-structured latent space in which nearby points map to perceptually similar images."
     }
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "atari_rl",
     "date": "2021-09-09",
     "media_type": "video",
@@ -121,18 +110,18 @@
     }
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "doom_ddqn",
     "date": "2021-11-14",
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/649624495",
     "caption": {
       "title": "Deep reinforcement learning agent playing Doom",
-      "text": "A dueling double DQN acts from first-person raw pixels alone. Evaluation views show the machine view, saliency, attention and Q-value confidence behind each action."
+      "text": "A dueling double DQN acts from first-person raw pixels alone. Evaluation views show the machine view, depth, saliency, attention and Q-value confidence behind each action."
     }
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "timelapse_hdr",
     "date": "2021-11-23",
     "media_type": "video",
@@ -143,7 +132,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "agent_sample",
     "date": "2021-12-05",
     "media_type": "image",
@@ -154,7 +143,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "codon",
     "date": "2022-05-22",
     "media_type": "image",
@@ -165,7 +154,7 @@
     }
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "dot_matrix",
     "date": "2022-06-11",
     "media_type": "image",
@@ -176,7 +165,7 @@
     }
   },
   {
-    "id": 16,
+    "id": 15,
     "title": "gates",
     "date": "2022-08-26",
     "media_type": "image",
@@ -187,7 +176,7 @@
     }
   },
   {
-    "id": 17,
+    "id": 16,
     "title": "modes",
     "date": "2023-06-11",
     "media_type": "image",
@@ -198,7 +187,7 @@
     }
   },
   {
-    "id": 18,
+    "id": 17,
     "title": "afferent",
     "date": "2023-06-14",
     "media_type": "image",
@@ -209,7 +198,7 @@
     }
   },
   {
-    "id": 19,
+    "id": 18,
     "title": "playhouse",
     "date": "2024-08-19",
     "media_type": "image",
@@ -220,7 +209,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 19,
     "title": "N2_bifurcation",
     "date": "2025-01-12",
     "media_type": "image",
@@ -231,7 +220,7 @@
     }
   },
   {
-    "id": 21,
+    "id": 20,
     "title": "N2_stability",
     "date": "2025-05-07",
     "media_type": "image",
@@ -242,7 +231,7 @@
     }
   },
   {
-    "id": 22,
+    "id": 21,
     "title": "N3_bifurcation",
     "date": "2025-10-02",
     "media_type": "image",
@@ -253,7 +242,7 @@
     }
   },
   {
-    "id": 23,
+    "id": 22,
     "title": "N3_multiview",
     "date": "2025-10-02",
     "media_type": "image",
@@ -264,7 +253,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 23,
     "title": "N3_projection",
     "date": "2025-10-02",
     "media_type": "image",
@@ -275,7 +264,7 @@
     }
   },
   {
-    "id": 25,
+    "id": 24,
     "title": "N3_turntable",
     "date": "2026-01-08",
     "media_type": "video",
@@ -287,7 +276,7 @@
     }
   },
   {
-    "id": 26,
+    "id": 25,
     "title": "isometric_phase",
     "date": "2026-03-28",
     "media_type": "image",
@@ -298,7 +287,7 @@
     }
   },
   {
-    "id": 27,
+    "id": 26,
     "title": "isometric_render",
     "date": "2026-03-28",
     "media_type": "video",
@@ -309,7 +298,7 @@
     }
   },
   {
-    "id": 28,
+    "id": 27,
     "title": "neural_motif",
     "date": "2026-07-04",
     "media_type": "image",
@@ -320,7 +309,7 @@
     }
   },
   {
-    "id": 29,
+    "id": 28,
     "title": "neural_field",
     "date": "2026-08-10",
     "media_type": "image",
@@ -331,7 +320,7 @@
     }
   },
   {
-    "id": 30,
+    "id": 29,
     "title": "heatmap_post",
     "date": "2026-09-22",
     "media_type": "image",
@@ -342,7 +331,7 @@
     }
   },
   {
-    "id": 31,
+    "id": 30,
     "title": "heatmap_coact",
     "date": "2026-09-22",
     "media_type": "image",
@@ -353,7 +342,7 @@
     }
   },
   {
-    "id": 32,
+    "id": 31,
     "title": "pathtracer",
     "date": "2026-11-18",
     "media_type": "image",
