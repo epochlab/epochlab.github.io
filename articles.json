@@ -28,8 +28,8 @@
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/571405530",
     "caption": {
-      "title": "Turntable render of a CNN architecture (MNIST)",
-      "text": "Three-dimensional render of a convolutional neural network architecture. Layers and their connections are shown in depth, exposing the network topology from every viewpoint."
+      "title": "Layer-wise activations of a CNN classifying MNIST digits",
+      "text": "Feature maps from each layer of a trained convolutional network, extracted per test digit and rebuilt as geometry in Houdini. The 28×28 input passes through 32 and then 64 feature maps, which lose spatial resolution as channel depth grows, into 128 hidden units and the ten class outputs, where the predicted digit is highlighted."
     }
   },
   {
@@ -50,8 +50,8 @@
     "media_type": "video",
     "media_url": "https://player.vimeo.com/video/634689187",
     "caption": {
-      "title": "Simulated aggregation",
-      "text": "Simulation of collective aggregation in Houdini. Initially dispersed elements are drawn together by local interactions and coalesce into clusters over time."
+      "title": "Procedural aggregation along a path network",
+      "text": "Organic growth simulated in Houdini. Shortest paths through the scene form a branching network, from which a solver grows outward each frame, absorbing points from a scattered point cloud that fall within a noise-modulated search radius. The accumulated points are then meshed as a fluid surface."
     }
   },
   {
@@ -84,7 +84,7 @@
     "media_url": "https://player.vimeo.com/video/649229501",
     "caption": {
       "title": "Deep reinforcement learning agent playing Pong",
-      "text": "A double DQN maps raw screen pixels to paddle actions, learning from game score alone with no prior knowledge of the rules."
+      "text": "A deep Q-network (DQN) maps a stack of four downsampled screen frames to paddle actions, learning from the game score alone with no prior knowledge of the rules."
     }
   },
   {
@@ -95,7 +95,7 @@
     "media_url": "https://player.vimeo.com/video/649624495",
     "caption": {
       "title": "Deep reinforcement learning agent playing Doom",
-      "text": "A dueling double DQN acts from first-person raw pixels alone. Evaluation views show the machine view, depth, saliency, attention and Q-value confidence behind each action."
+      "text": "A dueling double DQN with prioritised experience replay acts from four stacked first-person frames. Diagnostic views show the agent's input, the engine's depth, object-label and automap buffers, a gradient-based attention map, and the network's state-value estimate over time."
     }
   },
   {
