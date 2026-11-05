@@ -161,7 +161,7 @@
     "media_url": "images/modes.webp",
     "caption": {
       "title": "Orientation maps from superposed plane waves",
-      "text": "Hue encodes phase. Left, a single plane wave produces parallel bands. Centre, two superposed waves produce a periodic lattice. Right, many waves of fixed wavelength and random orientation produce a quasi-periodic map with pinwheel singularities, resembling orientation preference maps in primary visual cortex."
+      "text": "Hue encodes phase. Left, a single plane wave produces parallel bands. Centre, two superposed waves produce a periodic lattice. Right, sixteen waves of fixed wavelength and random orientation produce a quasi-periodic map with pinwheel singularities, resembling orientation preference maps in primary visual cortex."
     }
   },
   {
